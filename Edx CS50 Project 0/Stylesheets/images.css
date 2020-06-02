@@ -1,0 +1,34 @@
+body {
+	background-image: none;	
+	height: 100vh;
+}
+
+.images {
+	height: auto;
+	cursor: pointer;
+	transition: all 0.5s;
+	margin: 20px;
+}
+
+.images:hover {
+	-ms-transform: scale(1.2,1.2);/*IE 9*/
+	-webkit-transform: scale(2,2);/*Safari*/
+	transform: scale(1.2,1.2);
+}
+
+/*Responsive*/
+@media only screen and (min-width: 992px) {
+	.gallery .images {
+		width: 25%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.gallery .images{
+		width: 25%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.gallery .images {
+		width: 37%;
+	}
+}
