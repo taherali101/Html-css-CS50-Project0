@@ -10,6 +10,7 @@ body {
 	margin: 20px;
 }
 
+
 .images:hover {
 	-ms-transform: scale(1.2,1.2);/*IE 9*/
 	-webkit-transform: scale(2,2);/*Safari*/
