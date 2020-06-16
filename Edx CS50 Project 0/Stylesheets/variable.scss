@@ -1,0 +1,51 @@
+$font-family:cursive;
+td{
+  font-size: 15px;
+  font-family: $font-family;
+}
+th{
+  font-size: 20px;
+  font-family: $font-family;
+}
+
+
+
+div{
+    font-size: 20px;
+    .heading{
+      text-align: center;
+    }
+   #first{
+      border: 1px solid black;
+      margin-top: 10px;
+    }
+    #second{
+      border: 1px solid black;
+      margin-top: 10px;
+    }
+}
+
+
+%message-shared {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+  }
+ 
+  .success {
+    @extend %message-shared;
+    border-color: green;
+  }
+  
+  .error {
+    @extend %message-shared;
+    border-color: red;
+  }
+  
+  .warning {
+    @extend %message-shared;
+    border-color: yellow;
+  }

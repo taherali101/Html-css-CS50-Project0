@@ -1,0 +1,47 @@
+td {
+  font-size: 15px;
+  font-family: cursive;
+}
+
+th {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+div {
+  font-size: 20px;
+}
+div .heading {
+  text-align: center;
+}
+div #first {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+div #second {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.warning, .error, .success {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+/*# sourceMappingURL=variable.css.map */
